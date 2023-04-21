@@ -19,24 +19,24 @@ body{
     margin: auto;
 }
 /* NAVBAR */
-ul{
+nav ul{
     list-style-type: none;
     background-color: black;
     overflow: auto;
     position: fixed;
     width: 100%;
 }
-li{
+nav li{
     float:left;
 }
-li a {
+nav li a {
     color: white;
     text-align: center;
     text-decoration: none;
     padding: 18px;
     display: inline-block;
 }
-li a:hover{
+nav li a:hover{
     color: red;
     background-color: white;
 }
@@ -90,3 +90,9 @@ li a:hover{
     transform: scale(1.05);
 }
 /* fin RESEÑA */
+/* FOOTER */
+.footer-color{
+    background-color: black;
+    color: white;
+}
+/* fin FOOTER */
