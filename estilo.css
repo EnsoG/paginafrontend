@@ -25,6 +25,7 @@ nav ul{
     overflow: auto;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 nav li{
     float:left;
@@ -87,12 +88,60 @@ nav li a:hover{
 }
 .card:hover{
     box-shadow: 0 0 6px 0;
-    transform: scale(1.05);
+    transform: scale(1.15);
+}
+.card i{
+    color: chocolate;
+    font-size: 35px;
+    margin: 20px;
+}
+.card p{
+    margin: 18px;
+    text-align: justify;
+}
+.titulo {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 /* fin RESEÑA */
+/* GALERÍA */
+#gallery{
+    background-color: gainsboro;
+}
+.contenedor-img{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contenedor-img img{
+    width: 23%;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    margin-bottom:25px;
+    border-radius: 15px;
+}
+.contenedor-img img:hover{
+    transform: scaleX(-1);
+}
+/* fin GALERÍA */
 /* FOOTER */
 .footer-color{
     background-color: black;
     color: white;
+}
+.footer{
+    width: 90%;
+    padding: 20px;
+    margin:auto;
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer li{
+    padding: 3px;
+}
+.footer a{
+    text-decoration: none;
+    color: green;
 }
 /* fin FOOTER */
